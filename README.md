@@ -1,3 +1,65 @@
+# ¿Qué es CRUD?
+
+CRUD es el acrónimo de Create (Crear), Read (Leer), Update (Actualizar) y Delete (Borrar). Este concepto se utiliza para describir las cuatro operaciones básicas que pueden realizarse en la mayoría de las bases de datos y sistemas de gestión de información.
+El concepto de CRUD surge en el contexto del desarrollo de software y de la gestión de bases de datos relacionales. La idea es que cualquier sistema de información que interactúe con datos debe proporcionar funcionalidades para crearlos, leerlos, actualizarlos y eliminarlos.
+Un framework CRUD, usualmente formado por interfaces HTML, muestra los objetos individuales a través de una interfaz gráfica y los modifica mediante operaciones CRUD. Éstas pueden ser configuradas para ejecutarse en períodos distintos, permitiendo a los demás usuarios acceder a los datos de cada plazo determinado, siendo útiles para sistemas multiusuarios.
+El CRUD permite, por lo tanto, reunir las operaciones básicas en un solo elemento, lograr que el cliente entienda más fácilmente cómo funciona el sistema, así como reutilizar el código y especificar los casos de uso sin demandar mucho tiempo ni esfuerzo.
+
+![image](https://github.com/PFLC/624-crus-basicos-AlexiaEsp/assets/113717920/9c011e68-89a9-47b6-a409-6790fc352288)
+
+- Create (Crear registros)
+- Read (Leer registros)
+- Update (Actualizar registros)
+- Delete (Borrar registros)
+
+---
+
+## Ventajas y desventajas del CRUD
+
+*Ventajas*
+
+- Facilita la creación y gestión de datos.
+- Proporciona una estructura coherente y fácil de entender para su manipulación.
+- Ayuda a minimizar los errores y garantiza la integridad de los datos.
+- Proporciona una base sólida para el desarrollo de aplicaciones.
+
+*Desventajas*
+
+- Puede ser demasiado simplista para aplicaciones complejas.
+- En ocasiones, es menos eficiente para aplicaciones de alta velocidad o de gran escala.
+- A veces, requiere una gran cantidad de código y configuración para implementarlo completamente.
+
+---
+## Ejemplos de aplicaciones del CRUD
+
+- Aplicaciones de gestión de contenido
+- Aplicaciones de comercio electrónico
+- Sistemas de reservas
+- Aplicaciones de redes sociales
+- Aplicaciones de gestión de proyectos
+
+![image](https://github.com/PFLC/624-crus-basicos-AlexiaEsp/assets/113717920/bdcdfc1d-614d-4d8e-971a-d9c7b4bd2030)
+
+
+  ## Función de cada fase
+  
+**Create (crear)**
+  
+Esta fase se utiliza para crear un nuevo registro en la base. Para implementar la operación «Crear», es necesario proporcionar un formulario o una interfaz donde el usuario pueda ingresar los datos para el nuevo registro. ***Después de que el usuario envía los datos, se debe realizar una validación de los mismos y luego insertarlos en la base o en el sistema de almacenamiento.***
+
+**Read (leer)**
+
+Esta fase se utiliza para leer los datos de la base y mostrarlos al usuario. Para implementar la operación «Leer», se debe proporcionar una interfaz que permita al usuario buscar y recuperar los registros existentes. ***Esto puede lograrse mediante el uso de filtros de búsqueda y una lista de resultados. Cuando el usuario hace clic en un registro, se debe mostrar su información completa.***
+
+**Update (actualizar)**
+
+Esta fase se utiliza para actualizar los datos existentes en la base de datos. Para implementar la operación «Actualizar», es necesario proporcionar una interfaz para que el usuario pueda modificar los datos de un registro existente. ***Una vez que el usuario envía los datos actualizados, debe realizarse una validación de los mismos y luego actualizar el registro correspondiente en la base o en el sistema de almacenamiento.***
+
+**Delete (borrar)**
+
+Esta fase se utiliza para eliminar un registro existente. Para implementar la operación «Eliminar», se debe proporcionar una interfaz que permita al usuario seleccionar un registro existente y confirmar su eliminación.
+
+---
 
 # Aplicación CRUD de PHP
 
