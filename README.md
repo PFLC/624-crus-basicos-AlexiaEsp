@@ -38,6 +38,9 @@ El CRUD permite, por lo tanto, reunir las operaciones básicas en un solo elemen
 - Aplicaciones de redes sociales
 - Aplicaciones de gestión de proyectos
 
+![image](https://github.com/PFLC/624-crus-basicos-AlexiaEsp/assets/113717920/bdcdfc1d-614d-4d8e-971a-d9c7b4bd2030)
+
+
   ## Función de cada fase
   
 **Create (crear)**
@@ -53,6 +56,7 @@ Esta fase se utiliza para leer los datos de la base y mostrarlos al usuario. Par
 Esta fase se utiliza para actualizar los datos existentes en la base de datos. Para implementar la operación «Actualizar», es necesario proporcionar una interfaz para que el usuario pueda modificar los datos de un registro existente. ***Una vez que el usuario envía los datos actualizados, debe realizarse una validación de los mismos y luego actualizar el registro correspondiente en la base o en el sistema de almacenamiento.***
 
 **Delete (borrar)**
+
 Esta fase se utiliza para eliminar un registro existente. Para implementar la operación «Eliminar», se debe proporcionar una interfaz que permita al usuario seleccionar un registro existente y confirmar su eliminación.
 
 ---
